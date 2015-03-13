@@ -6,3 +6,9 @@ struct obj
 };
 
 int box[maxn], lobox;
+
+void addline(int a, int b, int w)
+{
+	e[lobox] = obj(b, box[a], w);
+	box[a] = lobox ++;
+}

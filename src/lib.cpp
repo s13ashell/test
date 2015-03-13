@@ -10,3 +10,8 @@ int nt(int n)
 {
 	return n == 0 ? 1 : n * t(n - 1);
 }
+
+int fib(int a)
+{
+	retirn a < 2 ? 1 : fib(a - 1) + fib(a - 2);
+}

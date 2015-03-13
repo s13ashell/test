@@ -1,0 +1,20 @@
+diff --git a/main.cpp b/main.cpp
+index 4fe82f10c96437ea6f0a10834ac9359ba288245b..e9a7166421a4f2475df020afef87d2287aa88725 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -1,12 +1,14 @@
+ #include <cstdio>
+ #include <iostream>
+ 
+-using namespace std;
++using namespace std;"
+ 
+ int main()
+ {
+     for (int i = 0; i < 10; i ++) printf("I'm no. %d member ~\n", i);
+     for (int i = 0; i < 10; i ++) printf("I'm no. %d member's girl friend ~\n");
+     for (int i = 0; i < 10; i ++) printf("I'm no. %d member's girl friend's father ~\n");
++    printf("Salaam !");
++	printf("Another word ...");
+     return 0;
+ }
